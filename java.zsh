@@ -17,3 +17,6 @@ function remove_java_path() {
 alias j8='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 1.8`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
 alias j11='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 11`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
 alias j15='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 15`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
+
+#ADD DEFAULT JAVA TO PATH
+export PATH=${PATH}:${JAVA_HOME}/bin
