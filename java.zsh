@@ -14,9 +14,9 @@ function remove_java_path() {
 }
 
 #JAVA VERSION ALIASES
-alias j8='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 1.8`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
-alias j11='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 11`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
-alias j15='remove_java_path;export JAVA_HOME=`/usr/libexec/java_home -v 15`;export PATH=${PATH}:${JAVA_HOME}/bin;java -version'
+alias j8='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
+alias j11='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
+alias j15='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 
 #ADD DEFAULT JAVA TO PATH
-export PATH=${PATH}:${JAVA_HOME}/bin
+export PATH=${JAVA_HOME}/bin:${PATH}
