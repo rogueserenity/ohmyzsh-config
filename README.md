@@ -19,6 +19,7 @@ plugins=(git mvn macos sudo vi-mode brew keychain gpg-agent wd)
 * A Companion for SwiftUI
 * Apple Developer
 * Boop
+* Canary Mail App
 * DuckDuckGo Privacy for Safari
 * Forklift
 * Icon Slate
@@ -28,7 +29,6 @@ plugins=(git mvn macos sudo vi-mode brew keychain gpg-agent wd)
 * PDF Inspector
 * Pixelmator Pro
 * SEE Finance
-* Spark
 * Synalyze It!
 * TextPlus
 * TinyStopwatch
