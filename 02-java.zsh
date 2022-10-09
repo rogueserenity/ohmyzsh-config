@@ -18,6 +18,7 @@ alias j8='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/jd
 alias j11='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 alias j17='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 alias j18='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
+alias j19='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-19.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 
 #ADD DEFAULT JAVA TO PATH
-export PATH=${JAVA_HOME}/bin:${PATH}
+export PATH=${JAVA_HOME}/bin:${PATH}:~/Development/apache-maven-3.8.6/bin
