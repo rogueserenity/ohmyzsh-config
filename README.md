@@ -9,7 +9,7 @@ ZSH_THEME="gianu"
 ## Plugins
 Set the plugins to use
 ```
-plugins=(git mvn macos sudo vi-mode brew keychain gpg-agent wd)
+plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 ```
 
 # Software Installs
