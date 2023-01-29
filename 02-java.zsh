@@ -17,7 +17,6 @@ function remove_java_path() {
 alias j8='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 alias j11='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 alias j17='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
-alias j18='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 alias j19='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-19.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 
 #ADD DEFAULT JAVA TO PATH
