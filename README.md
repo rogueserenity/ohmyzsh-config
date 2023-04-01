@@ -1,20 +1,25 @@
 # oh-my-zsh Customizations
 
 ## Theme
+
 Set the theme to use for zsh
-```
+
+```zsh
 ZSH_THEME="gianu"
 ```
 
 ## Plugins
+
 Set the plugins to use
-```
+
+```zsh
 plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 ```
 
-# Software Installs
+## Software Installs
 
-## App Store
+### App Store
+
 * 1Password for Safari
 * A Companion for SwiftUI
 * Apple Developer
@@ -32,13 +37,12 @@ plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 * Synalyze It!
 * TextPlus
 * TinyStopwatch
-* Tweetbot
 * Unicorn Blocker
 * Xcode
 
-## Manual
+### Manual
+
 * 1Password
-* Atom
 * Discord
 * Docker
 * GitHub Desktop
@@ -58,18 +62,15 @@ plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 * Upwork
 * Visual Studio Code
 
-## Command Line
+### Command Line
+
 * Homebrew
 * Java 1.8.0_202
 * Java 11
 * Java 17
 * Java Latest
-* Maven
 * oh-my-zsh
 
-### Homebrew Packages
-* gh
-* git
-* go
-* httpie
-* hugo
+#### Homebrew Packages
+
+Use `brew bundle`

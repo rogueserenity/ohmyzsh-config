@@ -20,4 +20,4 @@ alias j17='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/t
 alias j19='remove_java_path;export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-19.jdk/Contents/Home;export PATH=${JAVA_HOME}/bin:${PATH};java -version'
 
 #ADD DEFAULT JAVA TO PATH
-export PATH=${JAVA_HOME}/bin:${PATH}:~/Development/apache-maven-3.8.6/bin
+export PATH=${JAVA_HOME}/bin:${PATH}
