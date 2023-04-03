@@ -6,6 +6,12 @@
       },
       "homebrew/core": {
         "revision": "afafca6e56f5b73be3c8c224b4b8844236597a6c"
+      },
+      "homebrew/cask": {
+        "revision": "485f9be3e611e26567a5337f00b68551dd05ceb0"
+      },
+      "homebrew/cask-versions": {
+        "revision": "d2069b25aec967682b4c910549386fbf059c1c6d"
       }
     },
     "brew": {
@@ -320,6 +326,11 @@
               "sha256": "2332bac68dd8db05c6a61e6bd75955287de71b7abe2abcf1c354d57a24cd29f3"
             }
           }
+        },
+        "options": {
+          "args": [
+            "ignore-dependencies"
+          ]
         }
       },
       "node@18": {
@@ -367,47 +378,163 @@
         }
       },
       "poetry": {
-        "version": "1.4.1",
+        "version": "1.4.2",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:7e6a51504e3164a017d39a5c708252a965bcb6bb4a82cadfe8e9debe899c0406",
-              "sha256": "7e6a51504e3164a017d39a5c708252a965bcb6bb4a82cadfe8e9debe899c0406"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:0ce0efbf455e6ff29488a9f13bf7cb8674f6901c682901ca896e027c96d0d9ac",
+              "sha256": "0ce0efbf455e6ff29488a9f13bf7cb8674f6901c682901ca896e027c96d0d9ac"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:48e3e6eba09693d07761f437c7dcc91b78a29d479757f1b1f44d14dd88f3118c",
-              "sha256": "48e3e6eba09693d07761f437c7dcc91b78a29d479757f1b1f44d14dd88f3118c"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:67608e40b337826f82280ec76b7cf599fef543da2c21f31d37523b8498e72a62",
+              "sha256": "67608e40b337826f82280ec76b7cf599fef543da2c21f31d37523b8498e72a62"
             },
             "arm64_big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:247f781e2e68d3d6f9cbe843f3415029171c627b9faedef2935a77f8d72a703f",
-              "sha256": "247f781e2e68d3d6f9cbe843f3415029171c627b9faedef2935a77f8d72a703f"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:13cff85a3647b6ae252ef088a6c9bcc0041cbad867f096fb513a22f96fc71821",
+              "sha256": "13cff85a3647b6ae252ef088a6c9bcc0041cbad867f096fb513a22f96fc71821"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:bdd0b53ebc4999b6036d6c2b5275b8cdea4e33b0bb65c5d96c300239aecbfb69",
-              "sha256": "bdd0b53ebc4999b6036d6c2b5275b8cdea4e33b0bb65c5d96c300239aecbfb69"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:36a049ba4a398a0281b2d40c719c74615c4537fe8430eb218159aba18f12279c",
+              "sha256": "36a049ba4a398a0281b2d40c719c74615c4537fe8430eb218159aba18f12279c"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:d7e9be25d833b67123d55c3ab0ed2db21702dd333d2792707b6ecf9ee7e9c8dc",
-              "sha256": "d7e9be25d833b67123d55c3ab0ed2db21702dd333d2792707b6ecf9ee7e9c8dc"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:2834a2ac59e5b6e365465c9e8b7f5a4bedb6c377a10cbab3655cafedcfa34b60",
+              "sha256": "2834a2ac59e5b6e365465c9e8b7f5a4bedb6c377a10cbab3655cafedcfa34b60"
             },
             "big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:cd69393e62e46cfb224d25e80d1f6b6f56d62912d007966cad364905f71bd0c4",
-              "sha256": "cd69393e62e46cfb224d25e80d1f6b6f56d62912d007966cad364905f71bd0c4"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:4a3dfa88ef593e0cf467bf721b9179977a9e37c38a2bea03d78168a02a2ef063",
+              "sha256": "4a3dfa88ef593e0cf467bf721b9179977a9e37c38a2bea03d78168a02a2ef063"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:63513a44fa823335fc025b586d78589c76be0ccdb06cc6cd676645ac887c8da8",
-              "sha256": "63513a44fa823335fc025b586d78589c76be0ccdb06cc6cd676645ac887c8da8"
+              "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:f151e4857f0e130e266e83c7c0fde65a56d9a3d27ebab02788323ac71edd8596",
+              "sha256": "f151e4857f0e130e266e83c7c0fde65a56d9a3d27ebab02788323ac71edd8596"
             }
           }
+        }
+      }
+    },
+    "cask": {
+      "temurin11": {
+        "version": "11.0.18,10",
+        "options": {
+          "full_name": "temurin11"
+        }
+      },
+      "temurin17": {
+        "version": "17.0.6,10",
+        "options": {
+          "full_name": "temurin17"
+        }
+      },
+      "temurin": {
+        "version": "20,36",
+        "options": {
+          "full_name": "temurin"
+        }
+      },
+      "1password": {
+        "version": "8.10.3",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "docker": {
+        "version": "4.17.0,99724",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "github": {
+        "version": "3.2.0-3a1561b0",
+        "options": {
+          "full_name": "github"
+        }
+      },
+      "google-chrome": {
+        "version": "111.0.5563.146",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "gpg-suite-no-mail": {
+        "version": "2023.2",
+        "options": {
+          "full_name": "gpg-suite-no-mail"
+        }
+      },
+      "maestral": {
+        "version": "1.7.1",
+        "options": {
+          "full_name": "maestral"
+        }
+      },
+      "microsoft-office": {
+        "version": "16.71.23031200",
+        "options": {
+          "full_name": "microsoft-office"
+        }
+      },
+      "omnigraffle": {
+        "version": "7.21.4",
+        "options": {
+          "full_name": "omnigraffle"
+        }
+      },
+      "postman": {
+        "version": "10.12.0",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "rectangle": {
+        "version": "0.67",
+        "options": {
+          "full_name": "rectangle"
+        }
+      },
+      "scenebuilder": {
+        "version": "19.0.0",
+        "options": {
+          "full_name": "scenebuilder"
+        }
+      },
+      "sf-symbols": {
+        "version": "4",
+        "options": {
+          "full_name": "sf-symbols"
+        }
+      },
+      "signal": {
+        "version": "6.12.0",
+        "options": {
+          "full_name": "signal"
+        }
+      },
+      "sourcetree": {
+        "version": "4.2.2,250",
+        "options": {
+          "full_name": "sourcetree"
+        }
+      },
+      "tunnelbear": {
+        "version": "5.0.0,8561e3d0b",
+        "options": {
+          "full_name": "tunnelbear"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.77.0",
+        "options": {
+          "full_name": "visual-studio-code"
         }
       }
     }

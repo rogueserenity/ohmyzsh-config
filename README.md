@@ -42,33 +42,14 @@ plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 
 ### Manual
 
-* 1Password
-* Discord
-* Docker
-* GitHub Desktop
-* Google Chrome
-* GPG Keychain
-* Maestral
-* Microsoft Office
-* OmniGraffle
-* Parallels Desktop
-* Postman
-* Rectangle
-* SceneBuilder
-* SF Symbols
-* Signal
-* Sourcetree
-* TunnelBear
+Most software is being installed by `brew bundle`. The following items need to be installed manually:
+
 * Upwork
-* Visual Studio Code
 
 ### Command Line
 
 * Homebrew
 * Java 1.8.0_202
-* Java 11
-* Java 17
-* Java Latest
 * oh-my-zsh
 
 #### Homebrew Packages
