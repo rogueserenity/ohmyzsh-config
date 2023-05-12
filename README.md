@@ -20,37 +20,16 @@ plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 
 ### App Store
 
-* 1Password for Safari
-* A Companion for SwiftUI
-* Apple Developer
-* Boop
-* Canary Mail App
-* DuckDuckGo Privacy for Safari
-* Forklift
-* Icon Slate
-* Kindle
-* Mactracker
-* NewTerminalHere
-* PDF Inspector
-* Pixelmator Pro
-* SEE Finance
-* Synalyze It!
-* TextPlus
-* TinyStopwatch
-* Unicorn Blocker
-* Xcode
+Software installs are handled by `brew bundle`.
 
 ### Manual
 
 Most software is being installed by `brew bundle`. The following items need to be installed manually:
 
-* Upwork
-
-### Command Line
-
 * Homebrew
-* Java 1.8.0_202
 * oh-my-zsh
+* Java 1.8.0_202
+* Upwork
 
 #### Homebrew Packages
 
