@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "6b01bd338af95db59f1d6db87ebf6416d7518297"
+        "revision": "ab014794c2dc14b1179de68f960479d898c5bc22"
       },
       "homebrew/core": {
         "revision": "8f05a0b6e2f80e28fc4b548521787a2fe1138719"
@@ -11,7 +11,7 @@
         "revision": "58c27a3cad562d7984c18c1806d88c81c8b002f5"
       },
       "homebrew/cask-versions": {
-        "revision": "a38f73c10c7d6c7d8f84ecfb7e638879fd5e1b87"
+        "revision": "6d6b48ec88abe5d4785006c3e1512b16d6818f65"
       }
     },
     "brew": {
@@ -499,7 +499,7 @@
         }
       },
       "google-chrome": {
-        "version": "113.0.5672.92",
+        "version": "113.0.5672.126",
         "options": {
           "full_name": "google-chrome"
         }
@@ -517,7 +517,7 @@
         }
       },
       "microsoft-office": {
-        "version": "16.72.23040900",
+        "version": "16.73.23051401",
         "options": {
           "full_name": "microsoft-office"
         }
@@ -529,7 +529,7 @@
         }
       },
       "postman": {
-        "version": "10.13.0",
+        "version": "10.14.2",
         "options": {
           "full_name": "postman"
         }
@@ -642,13 +642,14 @@
       "Xcode": {
         "id": "497799835",
         "version": "14.3"
-      }
+      },
+      "Hush Nag Blocker": null
     }
   },
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.17",
+        "HOMEBREW_VERSION": "4.0.18",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.0.0.1.1679647830",

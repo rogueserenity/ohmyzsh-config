@@ -26,6 +26,7 @@ mas "Mactracker", id: 430255202
 mas "Pixelmator Pro", id: 1289583905
 mas "SEE Finance 2", id: 1316742770
 mas "Unicorn Blocker:Adblock", id: 1231935892
+mas "Hush Nag Blocker", id: 1544743900
 
 # Software Development
 brew "awscli"
