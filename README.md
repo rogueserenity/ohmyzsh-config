@@ -16,6 +16,14 @@ Set the plugins to use
 plugins=(brew git gpg-agent keychain macos mvn sudo vi-mode wd)
 ```
 
+## Set Custom Location
+
+oh-my-zsh no longer reacts well to overwriting the custom directory. Check this repo out to another
+location and set the location in the `.zshrc`
+```zsh
+ZSH_CUSTOM=~/.ohmyzsh-config
+```
+
 ## Software Installs
 
 ### App Store
