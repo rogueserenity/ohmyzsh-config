@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/core"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
 
 # User Tools
@@ -15,7 +13,6 @@ cask "rectangle"
 cask "signal"
 cask "tunnelbear"
 mas "1Password for Safari", id: 1569813296
-mas "Canary Mail - Email Meet AI", id: 1236045954
 mas "Dark Noise: Sound Machine", id: 1465439395
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "ForkLift", id: 412448059
